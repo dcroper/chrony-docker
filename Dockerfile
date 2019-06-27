@@ -6,6 +6,8 @@ RUN mkdir /etc/chrony && ln -s /var/lib/chrony/chrony.conf /etc/chrony/chrony.co
 
 RUN apk add --no-cache chrony
 
+RUN chown chrony:chrony /var/lib/chrony
+
 EXPOSE 123/udp
 
 VOLUME /var/lib/chrony
