@@ -2,9 +2,9 @@ FROM alpine:latest
 
 COPY chrony.conf /var/lib/chrony/chrony.conf
 
-RUN apk add --no-cache chrony
-
 RUN ln -s /var/lib/chrony/chrony.conf /etc/chrony.conf
+
+RUN apk add --no-cache chrony
 
 EXPOSE 123/udp
 
