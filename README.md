@@ -1,6 +1,6 @@
 # chrony-docker
 
-A docker container for chrony (<https://chrony.tuxfamily.org>) based on alpine linux.
+A docker container for [chrony](https://chrony.tuxfamily.org) based on alpine linux.
 
 ## Run
 
