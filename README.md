@@ -1,4 +1,4 @@
-# chrony-docker
+# chrony-docker ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/dcroper/chrony-docker)
 
 A docker container for [chrony](https://chrony.tuxfamily.org) based on alpine linux.
 
